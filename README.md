@@ -1,5 +1,14 @@
+## 记录
 
-rk找到加载页面里所有加载的资源
+### 起因
+
+* 偶尔看到有淘宝官方出的买家秀照片墙
+* 为了符合社会主义核心价值观我切换成了 [书店][1]
+* 应广大网友号召,想把这些图片都抓下来,方便大家预览
+
+### 过程
+#### 分析页面
+* 从network找到加载页面里所有加载的资源
 * 找到了与之有关的请求.
 ![image](https://upload-images.jianshu.io/upload_images/3982860-3fafbc360a9331cb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 * 该请求是 GET 请求,参数都在 URL 中
